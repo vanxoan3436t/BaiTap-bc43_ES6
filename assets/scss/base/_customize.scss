@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: rgb(171,228,221);
+    background: linear-gradient(34deg, rgba(171,228,221,1) 24%, rgba(177,235,231,1) 94%);
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+i, span{
+    display: inline-block;
+}

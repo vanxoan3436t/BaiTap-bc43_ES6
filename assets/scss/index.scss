@@ -1,0 +1,62 @@
+@import '../scss/base/customize';
+@import '../scss/layouts/model';
+
+
+.header {
+    background-color: rgb(70, 153, 153);
+
+    .container {
+        .header-content {
+            a {}
+
+            .nav {
+                li {
+                    .nav-link {
+                        color: rgb(215, 219, 221);
+                    }
+                }
+            }
+
+            form {}
+
+            .text-end {}
+        }
+    }
+
+}
+
+.main-content {
+    margin-top: 40px;
+    height: 300px;
+
+    .container {
+
+        .admins {
+            position: relative;
+            height: 180px;
+            width: 160px;
+            // border: 0.5px solid rgb(63, 112, 112);
+            // border-radius: 50%;
+
+            div {
+                position: absolute;
+                top: 10%;
+                left: 25%;
+                width: 80px;
+                // height: 150px;
+
+                img {
+                    width: 100%;
+                }
+
+
+            }
+
+            .btn-primary {
+                position: absolute;
+                bottom: 0%;
+                left: 11%;
+            }
+        }
+    }
+}
